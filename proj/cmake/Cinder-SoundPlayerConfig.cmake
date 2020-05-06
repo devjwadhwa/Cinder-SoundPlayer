@@ -1,6 +1,7 @@
 if(NOT TARGET Cinder-SoundPlayer)
     # Define ${Cinder-SoundPlayer_PROJECT_ROOT}. ${CMAKE_CURRENT_LIST_DIR} is just the current directory.
-    get_filename_component(Cinder-SoundPlayer_PROJECT_ROOT "../../../.." ABSOLUTE)
+    get_filename_component(Cinder-Notifications_PROJECT_ROOT "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
+
 
     # Define ${CINDER_PATH} as usual.
     get_filename_component(CINDER_PATH "${Cinder-SoundPlayer_PROJECT_ROOT}/../.." ABSOLUTE)
