@@ -8,8 +8,6 @@ if(NOT TARGET Cinder-SoundPlayer)
 
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundPlayer.h"
-            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundManager.h"
             "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundPlayer.cpp"
             "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundManager.cpp"
             )
@@ -30,7 +28,7 @@ if(NOT TARGET Cinder-SoundPlayer)
     # # target_link_libraries(Cinder-SoundPlayer "${Cinder-OpenCV_PROJECT_ROOT}/lib/libopencv_core.a")
 
     if(NOT TARGET cinder)
-        include("${CINDER_PATH}/proj/cmake/configure.cmake")
+        include("${CINDER_PATH}/proj/cmake/Cinder-SoundPlayerConfig.cmake")
         find_package(cinder REQUIRED PATHS
                 "${CINDER_PATH}/${CINDER_LIB_DIRECTORY}"
                 "$ENV{CINDER_PATH}/${CINDER_LIB_DIRECTORY}")
