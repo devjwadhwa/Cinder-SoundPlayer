@@ -7,7 +7,7 @@
     summary="Simple sound player using Cinder's new Audio API."
     version="1.0"
     url="https://github.com/devjwadhwa/Cinder-SoundPlayer"
-    git="https://github.com/redpaperheart/Cinder-SoundPlayer.git"
+    git="https://github.com/devjwadhwa/Cinder-SoundPlayer.git"
     >
     <supports os="macosx"/>
     <supports os="msw"/>
