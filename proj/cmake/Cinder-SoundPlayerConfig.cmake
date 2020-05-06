@@ -9,6 +9,8 @@ if(NOT TARGET Cinder-SoundPlayer)
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
             "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundManager.cpp"
             "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundPlayer.cpp"
+            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundManager.h"
+            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundPlayer.h"
             )
 
     # Create the library!
