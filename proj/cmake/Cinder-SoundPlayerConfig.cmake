@@ -20,7 +20,7 @@ if(NOT TARGET Cinder-SoundPlayer)
     # Notice that `cinderblock.xml` has `<includePath>src</includePath>`.
     # So you need to set `../../src/` to include.
     target_include_directories(Cinder-SoundPlayer PUBLIC "${Cinder-SoundPlayer_PROJECT_ROOT}/src" )
-    target_include_directories(Cinder-SoundPlayer SYSTEM BEFORE PUBLIC "${CINDER_PATH}/include" )
+    # target_include_directories(Cinder-SoundPlayer SYSTEM BEFORE PUBLIC "${CINDER_PATH}/include" )
 
 
     # If your Cinder block has no source code but instead pre-build libraries,
