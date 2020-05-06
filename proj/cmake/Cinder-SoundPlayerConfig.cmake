@@ -7,8 +7,8 @@ if(NOT TARGET Cinder-SoundPlayer)
 
     # Make a list of source files and define that to be ${SOURCE_LIST}.
     file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/NotificationManager.cpp"
-            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/Notification.cpp"
+            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundManager.cpp"
+            "${Cinder-SoundPlayer_PROJECT_ROOT}/src/rph/SoundPlayer.cpp"
             )
 
     # Create the library!
