@@ -6,8 +6,8 @@
     author="Red Paper Heart"
     summary="Simple sound player using Cinder's new Audio API."
     version="1.0"
-    url="https://github.com/redpaperheart/Cinder-SoundPlayer"
-    git="https://github.com/redpaperheart/Cinder-SoundPlayer.git"
+    url="https://github.com/devjwadhwa/Cinder-SoundPlayer"
+    git="https://github.com/devjwadhwa/Cinder-SoundPlayer.git"
     >
     <supports os="macosx"/>
     <supports os="msw"/>
